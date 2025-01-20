@@ -1,0 +1,1 @@
+python -u -m paddle.distributed.launch --gpus "0,1,2,3" run_finetune.py lora_argument.json
